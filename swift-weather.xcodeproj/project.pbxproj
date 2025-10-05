@@ -109,6 +109,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E4E31382E93145D0013EB8D /* app */ = {
+			isa = PBXGroup;
+			children = (
+				6EF3A3282E9306E400CFB916 /* ContentView.swift */,
+				6EF3A32D2E9306E400CFB916 /* weatherApp.swift */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		6E4E31392E9314820013EB8D /* functionality */ = {
+			isa = PBXGroup;
+			children = (
+				6EF3A3262E9306E400CFB916 /* api.swift */,
+				6EF3A3292E9306E400CFB916 /* forecast api.swift */,
+				6EF3A32B2E9306E400CFB916 /* location.swift */,
+			);
+			path = functionality;
+			sourceTree = "<group>";
+		};
+		6E4E313A2E9314A40013EB8D /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				6EF3A35E2E930D4500CFB916 /* Info.plist */,
+				6EF3A32C2E9306E400CFB916 /* Secrets.plist */,
+				6EF3A3272E9306E400CFB916 /* Assets.xcassets */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		6E4E313B2E9314E20013EB8D /* extras */ = {
+			isa = PBXGroup;
+			children = (
+				6EF3A32A2E9306E400CFB916 /* KeyboardAvoidance.swift */,
+				6EF3A3252E9306E400CFB916 /* animation.swift */,
+			);
+			path = extras;
+			sourceTree = "<group>";
+		};
 		6E5F460C2E93040200FA85FA = {
 			isa = PBXGroup;
 			children = (
@@ -132,16 +170,10 @@
 		6EF3A32E2E9306E400CFB916 /* weather */ = {
 			isa = PBXGroup;
 			children = (
-				6EF3A35E2E930D4500CFB916 /* Info.plist */,
-				6EF3A3252E9306E400CFB916 /* animation.swift */,
-				6EF3A3262E9306E400CFB916 /* api.swift */,
-				6EF3A3272E9306E400CFB916 /* Assets.xcassets */,
-				6EF3A3282E9306E400CFB916 /* ContentView.swift */,
-				6EF3A3292E9306E400CFB916 /* forecast api.swift */,
-				6EF3A32A2E9306E400CFB916 /* KeyboardAvoidance.swift */,
-				6EF3A32B2E9306E400CFB916 /* location.swift */,
-				6EF3A32C2E9306E400CFB916 /* Secrets.plist */,
-				6EF3A32D2E9306E400CFB916 /* weatherApp.swift */,
+				6E4E31382E93145D0013EB8D /* app */,
+				6E4E31392E9314820013EB8D /* functionality */,
+				6E4E313B2E9314E20013EB8D /* extras */,
+				6E4E313A2E9314A40013EB8D /* resources */,
 			);
 			path = weather;
 			sourceTree = "<group>";
@@ -480,7 +512,7 @@
 				DEVELOPMENT_TEAM = 9CDQVH59FW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = weather/Info.plist;
+				INFOPLIST_FILE = weather/resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -509,7 +541,7 @@
 				DEVELOPMENT_TEAM = 9CDQVH59FW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = weather/Info.plist;
+				INFOPLIST_FILE = weather/resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
