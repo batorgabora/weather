@@ -2,3 +2,6 @@
 
 Hey, I did this project around a year ago while still in high school, so it's kind of just about getting to know Swift and API's but turned out quite all right.
 I used Xcode and OpenWeather's API and added extra functionality such as searching for cities and also finding the location of the user (if agreed). 
+
+//extra info:
+Basically the scripts can be found in the weather directory, in seperate organized directories, only thing is that to resources a Secrets.plist shall be added based on the template of Secrets-template.plist with your own API key from OpenWeather and that should be it.
