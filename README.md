@@ -1,5 +1,5 @@
 <img width="1470" height="956" alt="Screenshot 2025-10-05 at 23 06 32" src="https://github.com/user-attachments/assets/203679c9-066c-405b-8c40-c90e29e188c0" />
-
+<br>
 This is a simple weather app I made using Swift in Xcode. <br>
                     It fetches real-time weather data from the OpenWeatherMap API based on user-inputted city names. <br>
                     The app displays the current temperature, weather conditions, and an icon representing the weather. <br>
